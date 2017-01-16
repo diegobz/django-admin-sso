@@ -95,6 +95,9 @@ DJANGO_ADMIN_SSO_OAUTH_CLIENT_SECRET = 'your client secret here'
 DJANGO_ADMIN_SSO_AUTH_URI = 'https://accounts.google.com/o/oauth2/auth'
 DJANGO_ADMIN_SSO_REVOKE_URI = 'https://accounts.google.com/o/oauth2/revoke'
 DJANGO_ADMIN_SSO_TOKEN_URI = 'https://accounts.google.com/o/oauth2/token'
+DJANGO_ADMIN_SSO_AUTO_CREATE_USER = False
+DJANGO_ADMIN_SSO_AUTO_SUPERUSER = False
+DJANGO_ADMIN_SSO_AUTO_USER_GROUPS = []
 
 LOGGING = {
     'version': 1,
